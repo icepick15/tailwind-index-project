@@ -8,3 +8,9 @@
 
 
 @tailwind utilities;
+
+@layer utilities{
+    .btn{
+        @apply font-semibold uppercase text-base text-white bg-indigo-600 px-8 py-3 hover:bg-indigo-400 hover:transition-colors rounded-full;
+    }
+}
